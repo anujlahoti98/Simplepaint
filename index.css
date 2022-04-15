@@ -1,0 +1,25 @@
+#box1
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#mycanvas
+{
+    border: 1px solid black;
+    
+    
+}
+#btn
+{
+    margin-left: 1320px;
+    width: 80px;
+    height: 30px;
+    color: red;
+    border-radius: 10%;
+}
+#btn:hover
+{
+    background-color: red;
+    color: azure;
+}
