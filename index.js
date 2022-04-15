@@ -14,10 +14,10 @@ window.addEventListener("load",()=>{
     var triangle
     var lastTriangleIndex
     
-    function startDraw(e)
+    function startDraw(value)
     {
-        downX = e.clientX-rect.left;
-        downY = e.clientY-rect.top;
+        downX = value.clientX-rect.left;
+        downY = value.clientY-rect.top;
         
         var result = isInside( downX,downY) 
         if(result!=null  )
